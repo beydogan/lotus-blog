@@ -94,11 +94,12 @@ module Web
       #                         'mysql://localhost/bookshelf'
       #
       # adapter type: :file_system, uri: ENV['WEB_DATABASE_URL']
+      adapter type: :sql, uri: 'postgres://confdeck:1@localhost/lotus_dev'
 
       # Configure a database mapping
       # See: http://www.rubydoc.info/gems/lotus-model#Data_Mapper
       #
-      # mapping 'config/mapping'
+      mapping 'config/mapping'
 
       ##
       # TEMPLATES
