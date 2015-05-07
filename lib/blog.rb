@@ -15,4 +15,7 @@ Lotus::Model.configure do
   #    adapter type: :sql, uri: 'mysql://localhost/blog_development'
   #
   #adapter type: :file_system, uri: ENV['BLOG_DATABASE_URL']
+  mapping do
+
+  end
 end.load!
