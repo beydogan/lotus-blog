@@ -5,8 +5,6 @@ module Web::Controllers::Home
     expose :post
 
     def call(params)
-      #@post = PostRepository
-      #p = Post.new(title: "Post1", content: "Contentt")
       @post = PostRepository.find(1)
     end
   end
