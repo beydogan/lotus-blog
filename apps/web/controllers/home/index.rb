@@ -2,10 +2,10 @@ module Web::Controllers::Home
   class Index
     include Web::Action
 
-    expose :post
+    expose :posts
 
     def call(params)
-      @post = PostRepository.find(1)
+      @posts = PostRepository.all
     end
   end
 end

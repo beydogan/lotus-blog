@@ -1,2 +1,12 @@
 %h1
- Welcome
+  Welcome
+
+.row
+  .col-lg-12
+    -posts.each do |post|
+      .panel.panel-default
+        .panel-heading
+          %a{href: routes.posts_path(id: post.id)}
+            =post.title
+        .panel-body
+          = post.content
