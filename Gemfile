@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'bundler'
 gem 'rake'
+gem 'haml'
 
 gem 'lotusrb',       '0.3.0'
 gem 'lotus-model',   '~> 0.3'

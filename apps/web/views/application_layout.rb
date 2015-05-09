@@ -1,3 +1,5 @@
+require 'haml'
+
 module Web
   module Views
     class ApplicationLayout
