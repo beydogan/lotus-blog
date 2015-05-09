@@ -1,5 +1,5 @@
 module Web::Views::Posts
-  class Show
+  class New
     include Web::View
 
   end
